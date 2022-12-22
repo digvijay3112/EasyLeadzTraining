@@ -7,5 +7,5 @@ $deleteResult= $empcollection->deleteOne(
     ['_id'=>'4']
 );
 printf("Deleted %d documents", $deleteResult->getDeletedCount());
-
+abc
 ?>
